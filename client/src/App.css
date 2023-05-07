@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(197, 120, 120);
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid lightgray;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgb(240, 157, 169);
+}
+
+.submit-button {
+  background-color: rgb(223, 171, 179);
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: hotpink;
+}
+
+body {
+  background-color: pink;
+}
+
+
